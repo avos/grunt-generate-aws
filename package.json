@@ -1,0 +1,39 @@
+{
+  "name": "grunt-generate-aws",
+  "description": "Makes a commonjs module from aws creds.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/avos/grunt-generate-aws",
+  "author": {
+    "name": "Chris Abrams"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/avos/grunt-generate-aws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avos/grunt-generate-aws/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/avos/grunt-generate-aws/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "bin": {
+    "grunt-generate-aws": "bin/grunt-generate-aws"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "moment": "2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
